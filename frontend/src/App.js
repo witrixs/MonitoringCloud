@@ -16,7 +16,7 @@ function App() {
   const [pinCode, setPinCode] = useState('');
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  const correctPinCode = '0151'; 
+  const correctPinCode = '0000'; 
 
   const fetchData = async () => {
     try {
